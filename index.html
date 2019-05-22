@@ -1,0 +1,1129 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<title style="font-color: white;">Telquest International: Network Switch Comparison Tool</title>
+	
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+		<link rel="stylesheet" type="text/css" href="css/stylesheet1.css" />
+		<link rel="stylesheet" type="text/css" href="css/stylesheet2.css" />
+        <script src="js/main_careers.js"></script>
+		<script src="js/modernizr.custom.js"></script>
+       	
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+
+ 
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+         
+
+     <style>
+    .btn:hover {
+        
+        background-color: #004672 ; 
+        color:white;
+        
+        
+    }
+    .btn, .price-a {
+            outline:none;
+       
+      
+            
+    }
+         
+    
+        
+</style>
+        
+	</head>
+    
+    
+	<body>
+        
+      
+ <!--/ Nav Star /-->
+  <nav class="navbar navbar-default navbar-trans navbar-expand-lg ">
+    <div class="container">
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
+        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <a class="navbar-brand text-brand" href="index.html"><img src="images/telquest.png"></a>
+      <button type="button" class="btn btn-link nav-search navbar-toggle-box-collapse d-md-none" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <span class="fa fa-search" aria-hidden="true"></span>
+      </button>
+      <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="https://www.telquestintl.com/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.telquestintl.com/search">Shop</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.telquestintl.com/Brands">Brands</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.telquestintl.com/Products">Products</a>
+          </li>
+         <li class="nav-item">
+            <a class="nav-link" href="https://www.telquestintl.com/deal-zone">Deal Zone</a>
+          </li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-b-n navbar-toggle-box-collapse d-none d-md-block" data-toggle="collapse"
+        data-target="#navbarTogglerDemo01" aria-expanded="false">
+        <input style="width: 300px; " id="filter" type="text">
+        <span class="fa fa-search" aria-hidden="true" style="padding:5px; margin-left:5px;"></span>
+      </button>
+    </div>
+  </nav>
+  <!--/ Nav End /-->
+
+   
+        
+		<div class="compare-basket" >
+			<button class="action action--button action--compare"><i class="fa fa-check"></i><span class="action__text">Compare</span></button>
+		</div>
+		<div style="display: inline-block;" class="view">
+		
+            
+<!-- filters-->
+            
+        <div  style="  margin-left: 70px; width:375px;  float:left;">
+            
+            <br><br>
+            <h5 class="intro-title mb-4"><span class="color-b">Switch Type</span></h5>
+            <div class="filtertype" style="display:inline-block;">
+                <button type="button" class=" filter btn price-a"  data-filter=".managed" id="managed"  style="width:120px; float:left;">Managed</button>
+                <button type="button" class="filter btn price-a" id="unmanaged" data-filter=".unmanaged"  style="width:120px; float:left;">Unmanaged</button>
+                <button type="button" class="filter btn price-a" id="smart" data-filter=".smart"  style="width:120px; float:left;">Smart</button>
+            </div>
+            
+            
+            
+            <br><br>
+            <h5 class="intro-title mb-4"><span class="color-b">Number of Ports</span></h5>
+            <div class="filtertype" style="display:inline-block;">
+
+                <button type="button" class="btn price-a" data-filter=".port5" id="port5"  style="width:40px; float:left;">5</button>
+                <button type="button" class="btn price-a" data-filter=".port8" id="port8"  style="width:40px; float:left;">8</button>
+               <button type="button" class="btn price-a" data-filter=".port10" id="port10"  style="width:40px; float:left;">10</button>
+                <button type="button" class="btn price-a" data-filter=".port16" id="port16"  style="width:40px; float:left;">16</button>
+                <button type="button" class="btn price-a" data-filter=".port24" id="port24"  style="width:40px; float:left;">24</button>
+                <button type="button" class="btn price-a" data-filter=".port26" id="port26"  style="width:40px; float:left;">26</button>
+                <button type="button" class="btn price-a" data-filter=".port50" id="port50"  style="width:40px; float:left;">50</button>
+            </div>
+            
+            <br><br>
+            <h5 class="intro-title mb-4"><span class="color-b">Switching Capacity</span></h5>
+            <div class="filtertype" style="display:inline-block;">
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_1" id="switching_capacity_1"  style="width:120px; float:left;">1 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_4" id="switching_capacity_4"  style="width:120px; float:left;"> 4.8 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_5" id="switching_capacity_5"  style="width:120px; float:left;">5.6 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_10" id="switching_capacity_10"  style="width:120px; float:left;">10 Gbps</button>
+                </div>
+                
+                 <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_13" id="switching_capacity_13"  style="width:120px; float:left;">13.6 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_16" id="switching_capacity_16"  style="width:120px; float:left;">16 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_20" id="switching_capacity_20"  style="width:120px; float:left;">20 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_32" id="switching_capacity_32"  style="width:120px; float:left;">32 Gbps</button>
+                </div>
+                
+                <div style="float:right; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_48" id="switching_capacity_48"  style="width:120px; float:left;">48 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_52" id="switching_capacity_52"  style="width:120px; float:left;">52 Gbps</button>
+                <button type="button" class="btn price-a" data-filter=".switching_capacity_100" id="switching_capacity_100"  style="width:120px; float:left;">100 Gbps</button>
+                </div>
+                
+            </div>
+            
+            <br><br>
+            <h5 class="intro-title mb-4"><span class="color-b">Forwarding Capacity</span></h5>
+            <div class="filtertype" style="display:inline-block;">
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_0" id="forwarding_capacity_0"  style="width:115px; float:left;">0.74 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_3" id="forwarding_capacity_3"  style="width:115px; float:left;">3.6 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_4" id="forwarding_capacity_4"  style="width:115px; float:left;">4.17 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_7" id="forwarding_capacity_7"  style="width:115px; float:left;">7.4 Mpps</button>
+                </div>
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_11" id="forwarding_capacity_11"  style="width:115px; float:left;">11.9 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_14" id="forwarding_capacity_14"  style="width:115px; float:left;">14.88 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_23" id="forwarding_capacity_23"  style="width:115px; float:left;">23.8 Mpps</button>
+                </div>
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_35" id="forwarding_capacity_35"  style="width:115px; float:left;">35.7 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_38" id="forwarding_capacity_38"  style="width:115px; float:left;">38.69 Mpps</button>
+                <button type="button" class="btn price-a" data-filter=".forwarding_capacity_74" id="forwarding_capacity_74"  style="width:115px; float:left;">74.41 Mpps</button>
+                </div>    
+            </div>
+            
+        <br><br>
+            <h5 class="intro-title mb-4"><span class="color-b">MAC Address Table Size</span></h5>
+            <div class="filtertype" style="display:inline-block;">
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".mac_address_table_512" id="mac_address_table_512"  style="width:115px; float:left;">512 Entries</button>
+                <button type="button" class="btn price-a" data-filter=".mac_address_table_1000" id="mac_address_table_1000"  style="width:115px; float:left;">1000 Entries</button>
+                <button type="button" class="btn price-a" data-filter=".mac_address_table_4000" id="mac_address_table_4000"  style="width:115px; float:left;">4000 Entries</button>
+                </div>
+                
+                <div style="float:left; width:33%;">
+                <button type="button" class="btn price-a" data-filter=".mac_address_table_8000" id="mac_address_table_8000"  style="width:115px; float:left;">8000 Entries</button>
+                <button type="button" class="btn price-a" data-filter=".mac_address_table_16000" id="mac_address_table_16000"  style="width:115px; float:left;">16,000 Entries</button>
+                </div>
+            </div>
+     
+        </div>
+            
+<!-- end filters -->
+
+			<div class="grid"  id="results" >
+           			
+             
+            <!--Switch 1-->
+				<div style="background-color: white;" class="product mix unmanaged port8 switching_capacity_16 forwarding_capacity_11 mac_address_table_4000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SG110D-08-NA-Parent.media-1.jpg" alt="Cisco SG110D-08-NA Switch" />
+						<h3 class="product__title ">Cisco SG110D-08-NA</h3>
+                    <p>Wire-speed fast ethernet or Gigabit ethernet connectivity.</p>
+						<table>
+                <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unmanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">11.9Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">16 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">4000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">PoE</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">6.29 x 1.18 x 5.05</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">0.83 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> 
+                    </table>			
+				</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 1-->
+            
+            <!--Switch 2-->    
+				<div style="background-color: white;" class="product  mix unmanaged port24 switching_capacity_48 forwarding_capacity_35 mac_address_table_512">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SG112-24-NA-Parent.media-1.jpg" alt="Cisco SG112-24-NA Switch" />
+						<h3 class="product__title">Cisco SG112-24-NA</h3>
+                    <p>Boost your office network performance.</p>
+						<table>
+                    <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">24</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unmanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">35.7Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">48 Gpbs</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">512</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">24 x 10/100 + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">17.4 x 1.7 x 8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">4.9 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid"> - </td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 2-->
+            
+            <!--Switch 3-->
+				<div style="background-color: white;" class="product unmanaged port16 switching_capacity_32 forwarding_capacity_23 mac_address_table_8000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SG110-16-NA-Parent.media-1.jpg" alt="Cisco SG110-16-NA Switch" />
+						<h3 class="product__title">Cisco SG110-16-NA</h3>
+                    <p>Deliver network connectivity and reliability.</p>
+						<table>
+                   <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">16</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unmanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">23.8Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">32 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">16 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">11 x 1.75 x 6.7</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">3.5 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - Internal</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody>
+                  </table> 		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 3-->
+                
+            <!--Switch 4-->    
+				<div style="background-color: white;" class="product smart port16 switching_capacity_52 forwarding_capacity_38 mac_address_table_8000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SLM2024PT-NA-Parent.media-1.jpg" alt="Cisco SLM2024PT-NA Switch" />
+						<h3 class="product__title">Cisco SLM2024PT-NA</h3>
+                    <p>Powerful network performance and reliability for a basic business network.</p>
+						<table>
+                  <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">26</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Smart Switch</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">38.69Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">52 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">24 x 10/100/1000 + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">17.3 x 1.73 x 10.1</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8.4 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - Internal</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 4-->
+            
+            <!--Switch 5-->    
+				<div  style="background-color: white;" class="product managed port10 switching_capacity_20 forwarding_capacity_14 mac_address_table_16000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SG300-10MPP-K9-NA-Parent.media-1.jpg" alt="Cisco SG300-10MPP-K9-NA Switch" />
+						<h3 class="product__title">Cisco SG300-10MPP-K9-NA </h3>
+                    <p>Easy-to-Use Managed Swtich.</p>
+						<table>
+                   <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">10</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Managed</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop | Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">14.88Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">20 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">16,000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8-port Gigabit + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE, PoE+ </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">11 x 1.45 x 6.7</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">2.73 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">Static IPv4</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">Layer 3</td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End of Switch 5-->
+            
+            <!--Switch 6-->    
+				<div  style="background-color: white;" class="product unmanaged port5 switching_capacity_1 forwarding_capacity_0 mac_address_table_1000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SF110D-05-NA-Parent.media-1.jpg" alt="Cisco SF110D-05-NA Switch" />
+						<h3 class="product__title">Cisco SF110D-05-NA</h3>
+                    <p>Performance and ease of user to connect small businesses.</p>
+						<table>
+                  <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">5</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">0.74Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">1 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">1000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">5 x 10/100</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">4.33 x 1.18 x 2.95</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">0.47 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 6-->
+                
+            <!--Switch 7-->    
+				<div style="background-color: white;" class="product managed port8 switching_capacity_16 forwarding_capacity_11 mac_address_table_4000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SG110D-08HP-NA-Parent.media-1.jpg" alt="Cisco SG110D-08HP-NA Switch" />
+					<h3 class="product__title">Cisco SG110D-08HP-NA</h3>
+                    <p>Connect various Ethernet and PoE compatible devices.</p>
+						<table>
+                   <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unmanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">11.9Mpps </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">16 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">4000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">6.29 x 1.18 x 5.05  </td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">0.83 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 7-->
+                
+            <!-- Switch 8-->    
+				<div  style="background-color: white;" class="product smart port26 switching_capacity_52 forwarding_capacity_38 mac_address_table_8000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SLM2024T-NA-Parent.media-1.jpg" alt="Cisco SLM2024T-NA Switch" />
+						<h3 class="product__title">Cisco SLM2024T-NA</h3>
+                    <p>A powerful network to set up and use right out of the box.</p>
+						<table>
+                    <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">26</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Smart Switch</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">38.69Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">52 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">24 x 10/100/1000 + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">17.35 x 1.73 x 10.1</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">7.21 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - Internal</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 8-->
+            
+            <!--Switch 9-->    
+				<div style="background-color: white;" class="product smart port8 switching_capacity_13 forwarding_capacity_11 mac_address_table_8000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SLM2008T-NA-Parent.media-1.jpg" alt="Cisco SLM2008T-NA Switch" />
+						<h3 class="product__title">Cisco SLM2008T-NA</h3>
+                    <p>Power-saving features reduce power consumption.</p>
+						<table>
+                    <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Smart Switch</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">11.9Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">13.6 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">4.45 x 1.06 x 5.12</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">1.65 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody> </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 9-->
+                
+            <!--Switch 10-->    
+				<div style="background-color: white;" class="product smart port50 switching_capacity_100 forwarding_capacity_74 mac_address_table_8000">
+					<div class="product__info">
+						<img class="product__image" src="https://www.telquestintl.com/site/images/products/SLM2048T-NA-Parent.media-1.jpg" alt="Cisco SLM2048T-NA Switch" />
+						<h3 class="product__title">Cisco SLM2048T-NA</h3>
+                    <p>Control Network Traffice with advanced features.</p>
+						<table>
+                   <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">50</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Smart Switch</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">74.41Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">100 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">48 x 10/100/1000 + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">17.35 x 1.73 x 10.1</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">13.32 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid"> - </td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody>
+                      </table>		
+						
+					</div>
+					<label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+				</div>
+            <!--End Switch 10-->
+            
+            <!--Switch 11-->    
+            <div style="background-color: white;" class="product unmanaged port5 switching_capacity_10 forwarding_capacity_7 mac_address_table_4000">
+          <div class="product__info">
+            <img class="product__image" src="https://www.telquestintl.com/site/images/products/SG110D-05-NA-Parent.media-1.jpg" alt="Cisco SG110D-05-NA Switch" />
+            <h3 class="product__title">Cisco SG110D-05-NA</h3>
+                    <p>Connect business machines without a lot of complexity.</p>
+            <table>
+                    <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">5</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Unmanaged</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">7.4Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">10 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">4000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">5 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">3.9 x 1.2 x 4.3</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">11.3 oz</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody>
+                      </table>    
+            
+          </div>
+          <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+        </div>
+    <!--End Switch 11-->
+    
+    <!-- Switch 12-->            
+          <div style="background-color: white;" class="product smart port8 switching_capacity_13 forwarding_capacity_11 mac_address_table_8000">
+          <div class="product__info">
+            <img class="product__image" src="https://www.telquestintl.com/site/images/products/SLM2008PT-NA-Parent.media-1.jpg" alt="Cisco SLM2008PT-NA Switch" />
+            <h3 class="product__title">Cisco SLM2008PT-NA</h3>
+                    <p>Combines powerful network performance and reliability.</p>
+            <table>
+ <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Smart Switch</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">11.9Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">13.6 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">8000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8 x 10/100/1000</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">5.1 x 5.1 x 1.7</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">2.8 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody>
+                      </table>    
+            
+          </div>
+          <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+        </div>
+    <!--End Switch 12-->
+                
+    <!--Switch 13-->
+          <div style="background-color: white;" class="product managed port10 switching_capacity_20 forwarding_capacity_14 mac_address_table_16000">
+          <div class="product__info">
+            <img class="product__image" src="https://www.telquestintl.com/site/images/products/SG300-10PP-K9-NA-Parent.media-1.jpg" alt="Cisco SG300-10PP-K9-NA Switch" />
+            <h3 class="product__title">Cisco SG300-10PP-K9-NA</h3>
+                    <p>Features 10 networking ports to establish or expand a local network.</p>
+            <table>
+  <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">10</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Managed</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop | Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">14.88Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">20 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">16,000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8-port Gigabit + 2 x combo Gigabit SFP</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE and PoE+ </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">1.45 x 11 x 6.7</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">2.73 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> Static IPv4  </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> Layer 3 </td>
+                        </tr>
+                     </tbody>
+                      </table>    
+            
+          </div>
+          <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+        </div>
+    <!--End Switch 13-->
+                
+    <!-- Switch 14-->
+          <div style="background-color: white;" class="product managed port8 switching_capacity_5 forwarding_capacity_4 mac_address_table_16000">
+          <div class="product__info">
+            <img class="product__image" src="https://www.telquestintl.com/site/images/products/SF302-08PP-K9-Parent.media-1.jpg" alt="Cisco SF302-08PP-K9 Switch" />
+            <h3 class="product__title">Cisco SF302-08PP-K9</h3>
+                    <p>Protect sensitive data and optimize network bandwidth.</p>
+            <table>
+ <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Managed</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Desktop | Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">4.17 Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">5.6 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">16,000</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">8-port 10/100</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> PoE and PoE+ </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">1.45 x 11 x 6.7</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">2.6 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Adapter - External</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> Static IPv4  </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> Layer 3 </td>
+                        </tr>
+                     </tbody>
+                      </table>    
+            
+          </div>
+          <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+        </div>
+    <!--End Switch 14-->
+
+    <!-- Switch 15-->
+          <div style="background-color: white;" class="product managed port24 switching_capacity_4 forwarding_capacity_3 mac_address_table_512">
+          <div class="product__info">
+            <img class="product__image" src="https://www.telquestintl.com/site/images/products/SF110-24-NA-Parent.media-1.jpg" alt="Cisco SF110-24-NA Switch" />
+            <h3 class="product__title">Cisco SF110-24-NA</h3>
+                    <p>Boost of speed and capacity for heavy bandwidth applications.</p>
+            <table>
+            <tbody>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">8</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">Managed</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Rack Mountable</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid ">3.6 Mpps</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">4.8 Gbps</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">512</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">24 x 10/100</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid ">6.7 x 1.7 x 11</td>
+                        </tr>
+                        <tr>
+                           <td class="product__buffer hide-from-main-grid ">2.9 lbs</td>
+                        </tr>
+                        <tr>
+                           <td class=" product__port_numbers hide-from-main-grid">Power Supply - Internal</td>
+                        </tr>
+                        <tr>
+                           <td class="product__speed hide-from-main-grid "> - </td>
+                        </tr>
+                        <tr>
+                           <td class=" product__type hide-from-main-grid "> - </td>
+                        </tr>
+                     </tbody>
+                      </table>    
+            
+          </div>
+          <label class="action action--compare-add"><input class="check-hidden" type="checkbox" /><i class="fa fa-plus"></i><i class="fa fa-check"></i><span class="action__text action__text--invisible">Add to compare</span></label>
+        </div>
+    <!--End Switch 15-->            
+
+      </div>
+		</div>
+		<section class="compare">
+			<button class="action action--close"><i class="fa fa-remove"></i><span class="action__text action__text--invisible">Close comparison overlay</span></button>
+		</section>
+<footer id="site-footer" style="display:; background-color:#004672;  position: relative;  bottom: 0px; ">
+   <section>
+      <div class="footercontainer" style="display:flex; justify-content: space-between; margin-left:50px; margin-right:50px;">
+         <div class="footercolumn" data-cms-area="footer-content-1" data-cms-area-filters="global" style="width:25%; float:left;">
+                     <div class="footernav">
+                        <h5>Company</h5><br>
+                        <p><a href="https://www.telquestintl.com/about-us" data-touchpoint="home" data-hashtag="#about-us">About Telquest</a></p><p><a href="https://www.telquestintl.com/faq" data-touchpoint="home" data-hashtag="#faq">FAQs</a><p><a href="https://www.telquestintl.com/terms-of-service">Terms of Service</a></p>
+                     </div>
+         </div>
+         <div class="footercolumn" data-cms-area="footer-content-2" data-cms-area-filters="global" style="width:25%; float:left;">
+                     <div class="footernav">
+                          <h5>Policies</h5><br>
+                        <p><a href="https://www.telquestintl.com/privacy-policy" data-touchpoint="home" data-hashtag="#privacy-policy">Privacy Policy</a></p><p><a href="https://www.telquestintl.com/e-mail-notification-policy" data-touchpoint="home" data-hashtag="#e-mail-notification-policy">Email Subscription Policy</a></p><p><a href="https://www.telquestintl.com/terms-and-conditions" data-touchpoint="home" data-hashtag="#terms-and-conditions">Terms and Conditions</a></p>
+                     </div>
+         </div>
+         <div class="footercolumn" data-cms-area="footer-content-3" data-cms-area-filters="global" style="width:25%; float:left;">
+                     <div class="footernav">
+                        <h5>Customer</h5><br>
+                         <p><a href="https://www.telquestintl.com/return-policy">Returns</a></p> <p><a href="https://www.telquestintl.com/equipment-repairs">Repairs</a></p> <p><a href="https://www.telquestintl.com/trade-ins">Trade-Ins</a></p> <p><a href="https://www.telquestintl.com/leasing">Leasing</a></p>
+                     </div>
+         </div>
+         <div class="footercolumn" data-cms-area="footer-content-4" data-cms-area-filters="global" style="width:25%; float:left;">
+                     <div class="footernav">
+                        <h5>Contact Us</h5><br>
+                         <p><a href="tel:8004750989"><i class="cms-footer-icon-phone"></i>800-475-0989</a></p> <p><a href="mailto:admin@telquestintl.com">admin@telquestintl.com</a></p>
+                     </div>
+         </div>
+      </div>
+       <br>
+    </section>
+      <div class="copy" style="background-color:#0f2851; padding:20px;">
+         <div data-view="FooterCopyright">
+            <div class="footer-content-copyright"><small style="color:white">© Copyright Telquest International 2019</small></div>
+         </div>
+      </div>
+<div data-view="Global.BackToTop"> <div id="back-to-top" class="global-views-back-to-top"><a href="#" data-action="back-to-top" style="color:white;"><br>Back to Top </a></div> </div>
+</footer>
+        <style>
+        .footernav h5{
+            color:white;
+        }
+         .footernav a{
+            color:white;
+            
+        }
+    </style>
+
+
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+		<script src="js/add_to_compare.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
+
+
+<script type="text/javascript">
+	
+
+ $("#filter").keyup(function() {
+ 
+      // Retrieve the input field text and reset the count to zero
+      var filter = $(this).val(),
+        count = 0;
+
+      // Loop through the comment list
+      $('#results > div > div > h3').each(function() {
+
+      		 		 
+        // If the list item does not contain the text phrase fade it out
+        if ($(this).text().search(new RegExp(filter, "i")) < 0) {
+          $(this).parent().parent().hide();  // MY CHANGE
+
+          // Show the list item if the phrase matches and increase the count by 1
+        } else {
+          $(this).parent().parent().show(); // MY CHANGE
+          count++;
+        }
+
+      });
+
+    });
+
+        $('.price-a').click(function(){
+          $(this).toggleClass('btn btn-success');
+          var filter_classes='';
+          $('.filtertype button').each(function(){
+            if($(this).hasClass('btn-success')){
+              filter_classes+=$(this).attr('data-filter');
+            }
+          });
+          if(filter_classes.length>0){
+            $('.product').css('display','none');
+            $(filter_classes).css('display','block');
+          }else{
+            $('.product').css('display','block');
+          }
+
+            
+        });  
+
+</script>
